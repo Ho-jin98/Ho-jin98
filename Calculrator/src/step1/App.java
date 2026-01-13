@@ -13,8 +13,16 @@ public class App {
         while (str1.equals(" ")) {
             System.out.print("첫 번째 숫자를 입력하세요: ");
             int num1 = sc.nextInt();
+            if (num1 < 0) {
+                System.out.println("0 이상의 양의 정수를 입력해주세요.");
+                continue;
+            }
             System.out.print("두 번째 숫자를 입력하세요: ");
             int num2 = sc.nextInt();
+            if (num2 < 0) {
+                System.out.println("0 이상의 양의 정수를 입력해주세요.");
+                continue;
+            }
             System.out.print("사칙 연산 기호를 입력하세요 (+,-,*,/): ");
             char c = sc.next().charAt(0);
             switch (c) {
@@ -33,9 +41,10 @@ public class App {
                         break;
                     } catch (ArithmeticException e) {
                         System.out.println("0으로 나눌 수 없습니다"); }
-                default:
-                    System.out.println("사칙연산 기호(+, -, *, /)중 하나를 입력해주세요.");
                     continue;
+
+                    default:
+                    System.out.println("사칙연산 기호(+, -, *, /)중 하나를 입력해주세요.");
   //TODO : continue를 사용하여 사용자가 사칙연산 기호를 잘못 입력한 경우 "첫 번째 숫자를 입력하세요"로 돌아감
             }
             System.out.print("계산을 계속 하겠습니까? (exit 입력시 종료): ");
