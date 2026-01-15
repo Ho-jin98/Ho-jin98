@@ -51,7 +51,9 @@ public class App {
             String str2 = sc.next();
             if (str2.equals("exit")) {
                 System.out.println("계산기 프로그램을 종료합니다");
-                break;}
+                break;} else if (str2.equals("EXIT")) {
+                System.out.println("계산기 프로그램을 종료합니다");
+            break;}
         } sc.close();
     }
 }
