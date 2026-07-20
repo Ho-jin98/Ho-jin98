@@ -58,7 +58,15 @@
   <img src="https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white"/>
 </p>
 
-<br/>
+<div align="center">
+  <a href="https://www.gitanimals.org/">
+    <img
+      src="https://render.gitanimals.org/farms/Ho-jin98"
+      width="100%"
+      alt="GitAnimals Farm"
+    />
+  </a>
+</div>
 
 > 프로젝트의 상세 구현과 문제 해결 과정은 아래 **Pinned repositories**와  
 > [포트폴리오](https://ho-jin98.github.io/)에서 확인할 수 있습니다.
