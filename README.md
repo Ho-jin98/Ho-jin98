@@ -60,5 +60,5 @@
 
 <br/>
 
-> 대표 프로젝트의 상세 구현과 문제 해결 과정은 아래 **Pinned repositories**와  
+> 프로젝트의 상세 구현과 문제 해결 과정은 아래 **Pinned repositories**와  
 > [포트폴리오](https://ho-jin98.github.io/)에서 확인할 수 있습니다.
